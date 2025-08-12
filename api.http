@@ -1,0 +1,12 @@
+GET http://localhost:3000/api
+
+### Signin with google
+
+POST http://localhost:3000/api/auth/singin
+Content-Type: application/json
+{
+  "provider": "google",
+  "token": "123456"
+}
+
+###
